@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+
+    <!-- <style>
+      ul {
+        list-style: none;
+      }
+
+      ul li {
+        display: inline;
+      }
+
+      ul li + li::before {
+        content: "/\00a0";
+      }
+
+      a:link,
+      a:visited,
+      a:hover,
+      a:active {
+        text-decoration: none;
+        color: black;
+      }
+    </style> -->
+  </head>
+  <body>
+    <header>
+      <nav aria-label="Breadcrumb">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="mailto:admission@altschoolafrica.com">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <fieldset>
+        <legend>Registration Form</legend>
+        <form action="#">
+          <label for="firstname"><pre>First Name</pre></label>
+          <input type="text" placeholder="Enter first name" required />
+
+          <label for="lastname"><pre>Last Name</pre></label>
+          <input type="text" placeholder="Enter last name" required />
+
+          <label for="gender" id="gender"><pre>Gender</pre></label>
+          <select name="gender" id="gender" required>
+            <option value="">Select gender</option>
+            <option value="F">Female</option>
+            <option value="M">Male</option>
+            <option value="Other">Prefer not to say</option>
+          </select>
+
+          <label for="date-of-birth">
+            <pre>Date of Birth</pre>
+          </label>
+          <input type="date" required />
+
+          <label for="email">
+            <pre>Email Address</pre>
+          </label>
+          <input type="email" placeholder="Enter email address" required />
+
+          <label for="education-level">
+            <pre>Education Level</pre>
+          </label>
+          <input type="text" placeholder="Select level of education" required />
+
+          <label for="country">
+            <pre>Country</pre>
+          </label>
+          <select name="country" id="country" required>
+            <option value="nill">Select your country</option>
+          </select>
+
+          <label for="state">
+            <pre>State/City of Residence</pre>
+          </label>
+          <input
+            type="text"
+            placeholder="Enter your state of residence"
+            required
+          />
+
+          <label for="employment-status">
+            <pre>Employment Status</pre>
+          </label>
+          <select name="employmemt-status" id="employment-status" required>
+            <option value="nill">Select employment status</option>
+          </select>
+
+          <label for="phone-number">
+            <pre>Phone Number</pre>
+          </label>
+          <input type="tel" placeholder="0800ALTSCHOOL" required />
+
+          <label for="school">
+            <pre>Choose School</pre>
+          </label>
+          <select name="school" id="school" required>
+            <option value="nill">Select School</option>
+          </select>
+
+          <label for="course">
+            <pre>Choose Course of Study</pre>
+          </label>
+          <select name="course" id="course" required>
+            <option value="nill">Select course</option>
+          </select>
+
+          <label for="hear-about-us">
+            <pre>How did you hear about us?</pre>
+          </label>
+          <select name="hear-about-us" id="hear-about-us" required>
+            <option value="nill">Select Channel</option>
+          </select>
+
+          <label for="scholarship">
+            <pre>Scholarship/Discount Code <br />(optional)</pre>
+          </label>
+          <input
+            id="firstname"
+            name="firstname"
+            type="text"
+            placeholder="Scholarship or student ID..."
+          />
+
+          <p>
+            By clicking continue, I agree to Terms of Use and acknowledge that I
+            have read the Privacy policy.
+          </p>
+
+          <button type="submit">Proceed</button>
+
+          <p><b>Already have an account?</b> Sign In</p>
+        </form>
+      </fieldset>
+    </main>
+  </body>
+</html>

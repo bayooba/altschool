@@ -1,0 +1,25 @@
+body {
+  /* color: #006a3c; */
+  /* color: #00a059; */
+}
+
+.animate {
+  animation-name: slide;
+  animation-duration: 3s;
+}
+
+@keyframes slide {
+  from {
+    margin-left: 50%;
+    width: 300%;
+    color: #00ff00;
+    background-color: red;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 50%;
+    color: #ff0000;
+    background-color: #00ff00;
+  }
+}

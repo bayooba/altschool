@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="./script.js"></script>
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <header class="header">
+      <span class="time">9:41</span>
+      <div>
+        <img src="./images/network-bar.svg" alt="network-bar" />
+        <img src="./images/Wi-Fi.svg" alt="Wi-Fi" />
+        <img src="./images/Battery.svg" alt="battery" />
+      </div>
+    </header>
+
+    <main class="container" id="container">
+      <section>
+        <div class="left">
+          <img src="./images/logo.svg" alt="logo" />
+          <h2>For individuals</h2>
+          <p class="change--paragraph">
+            Start benefiting from the wellness experience. For companies looking
+            on increasing productivity, and improving organization wellness.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="right">
+          <form action="#" id="form">
+            <div class="form--info">
+              <div class="form--info--left">
+                <pre><label for="firstname" class="form--info">First Name</label></pre>
+                <input
+                  type="text"
+                  name="firstname"
+                  id="firstname"
+                  placeholder="Enter your firstname"
+                  required
+                />
+              </div>
+
+              <div class="form--info--right">
+                <pre><label for="lastname" class="form--info">Last Name</label></pre>
+                <input
+                  type="text"
+                  name="lastname"
+                  id="lastname"
+                  placeholder="Enter your lastname"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form--info">
+              <div class="form--info--left">
+                <pre><label for="gender" class="form--info">Gender</label></pre>
+                <select
+                  name="gender"
+                  id="gender"
+                  aria-placeholder="Select here"
+                  required
+                >
+                  <option value="">Select here</option>
+                  <option value="female">Female</option>
+                  <option value="male">Male</option>
+                  <option value="undeclared">Prefer not to say</option>
+                </select>
+              </div>
+
+              <div class="form--info--right">
+                <pre><label for="date-of-birth" class="form--info">Date of Birth</label></pre>
+                <input
+                  type="text"
+                  onfocus="(this.type='date')"
+                  name="date-of-birth"
+                  id="date-of-birth"
+                  placeholder="Select here"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form--info">
+              <div class="form--info--left">
+                <pre><label for="weight" class="form--info">Weight (KG)</label></pre>
+                <input type="number" name="weight" id="weight" />
+              </div>
+
+              <div class="form--info--right">
+                <pre><label for="height" class="form--info">Height (CM)</label></pre>
+                <input type="number" name="height" id="height" />
+              </div>
+            </div>
+
+            <div class="activity-level">
+              <pre><label for="activity-level" class="form--info"
+              >Activity Level</label
+            ></pre>
+              <select name="activity-level" id="activity-level">
+                <option value="">Select here</option>
+              </select>
+            </div>
+
+            <div class="password">
+              <pre><label for="password" class="form--info">Password</label></pre>
+              <input type="password" name="password" id="password" required />
+              <i aria-hidden="true"
+                ><img
+                  src="./images/hide-password.svg"
+                  alt="password-hidden"
+                  id="hide-password"
+                />
+              </i>
+            </div>
+
+            <input type="submit" value="Register" id="register" />
+            <p class="terms-and-policy" id="policy">
+              By clicking Register, you agree to our
+              <span class="terms-and-policy">Terms of Use</span> and our
+              <span class="terms-and-policy">Privacy Policy</span>
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
