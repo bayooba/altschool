@@ -121,7 +121,8 @@ span.terms-and-policy {
   text-decoration: underline;
 }
 
-.policy {
+.policy,
+.no-display {
   display: none;
 }
 

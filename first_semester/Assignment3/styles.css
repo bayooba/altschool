@@ -7,7 +7,7 @@
 body {
   background-color: #f5f8fa;
   font-family: "Lato", sans-serif;
-  font-family: "Sofia Sans", sans-serif;
+  /* font-family: "Sofia Sans", sans-serif; */
   /* width: 1440px; */
   /* height: 1170px; */
   margin: auto;
@@ -127,6 +127,10 @@ li.account {
   margin: 16px 0 40px;
   padding-bottom: 42px;
   border-bottom: solid 1px #f5f7fa;
+}
+
+#credit-card {
+  width: 483px;
 }
 
 .buy-wp-pusher {
